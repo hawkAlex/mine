@@ -56,13 +56,13 @@ table {
 }
 
 .isMine {
-    background-image: url(images/flag.png);
+    background-image: url(../images/flag.png);
     background-repeat: no-repeat;
     background-color: rgba(235, 235, 235, 0.86);
 }
 
 .show-mine {
-    background-image: url(images/mine.png);
+    background-image: url(../images/mine.png);
     background-repeat: no-repeat;
     background-color: rgba(235, 235, 235, 0.86);
 }
