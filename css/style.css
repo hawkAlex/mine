@@ -1,0 +1,99 @@
+body {
+    background-color: rgba(235, 40, 54, 0.03);
+    font-weight: bold;
+}
+#clock {
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block {
+    margin: auto;
+    width: 350px
+}
+
+img {
+    float: left;
+    margin: 2px;
+}
+
+input[type="button"] {
+    margin-top: 20px;
+}
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+tbody {
+    background-color: rgba(45, 230, 210, 0.45);
+}
+
+td {
+    border: 1px solid black;
+    width: 24px;
+    height: 24px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    cursor: pointer;
+    margin: auto;
+}
+
+#new-game-button {
+    float: right;
+    margin: 5px;
+}
+
+#mine-counter {
+    float: left;
+    margin: 5px;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.isMine {
+    background-image: url(images/flag.png);
+    background-repeat: no-repeat;
+    background-color: rgba(235, 235, 235, 0.86);
+}
+
+.show-mine {
+    background-image: url(images/mine.png);
+    background-repeat: no-repeat;
+    background-color: rgba(235, 235, 235, 0.86);
+}
+
+td.open-field {
+    background: rgba(235, 235, 235, 0.86);
+}
+td[data-bomb-count="1"] {
+    color: green;
+}
+
+td[data-bomb-count="2"] {
+    color: blue;
+}
+
+td[data-bomb-count="3"] {
+    color: red;
+}
+
+td[data-bomb-count="4"] {
+    color: brown;
+}
+
+td[data-bomb-count="5"] {
+    color: yellow;
+}
+
+td[data-bomb-count="6"] {
+    color: pink;
+}
+
+td[data-bomb-count="7"] {
+    color: magenta;
+}

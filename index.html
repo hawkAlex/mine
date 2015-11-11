@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mine</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+<div class="block">
+    <h1>Игра Сапер</h1>
+
+    <form id="generete-form">
+        <h3>Выберите размер поля</h3>
+        <input type="radio" value="9" name="size[]" data-mine-count="10" checked />
+        <label for="small">Новичек 10 мин, поле 9х9 ячеек</label>
+        <br />
+        <input type="radio" value="16" data-mine-count="40" name="size[]" />
+        <label for="midle">Любитель 40 мин, поле 16х16 ячеек</label>
+        <br />
+        <input type="radio" value="22" data-mine-count="99" name="size[]" />
+        <label for="big">Профессионал 99 мин, поле 22х22 ячеек</label>
+        <br />
+        <input type="button" value="Создать" id="generete-button" />
+    </form>
+</div>
+
+    <table id="table">
+        <thead hidden >
+            <tr>
+                <td colspan="24">
+                    <img src="images/mine.png" /><input id="mine-counter" type="text" disabled /><input id="clock" type="text" disabled value="0"/>
+                    <button id="new-game-button">Новая игра</button>
+                </td>
+            </tr>
+        </thead>
+    </table>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
+
+
